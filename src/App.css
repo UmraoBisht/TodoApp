@@ -1,0 +1,123 @@
+.container {
+  display: flex;
+  align-items: center;
+  border: 1px solid #897f7f;
+  height: 60px;
+  justify-content: space-between;
+  padding: 0px 20px;
+  margin: 10px 20px;
+}
+
+
+.flex {
+  display: flex;
+  gap: 1rem;
+  justify-content: center;
+  align-items: center;
+  flex-shrink: 1;
+}
+
+input {
+  border: 2px solid black;
+  border-radius: 12px;
+  height: 40px;
+  padding: 0 12px;
+  width: 240px;
+}
+
+
+.form-label {
+  font-size: 16px;
+  font-weight: 700;
+}
+
+.form-container {
+  background-color: #eee;
+  border-radius: 12px;
+  justify-content: space-between;
+  margin: 0 auto;
+  padding: 30px;
+}
+
+.form {
+  justify-content: space-between;
+  width: 100%;
+}
+
+.btn {
+  border: none;
+  border-radius: 12px;
+  padding: 0 12px;
+  height: 40px;
+  width: 140px;
+  font-size: 16px;
+  font-weight: 700;
+  cursor: pointer;
+  text-decoration: none;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.submit-btn {
+  background-color: teal;
+  color: #fff;
+  font-weight: 700;
+}
+
+.list-wrapper {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 12px;
+}
+
+.list-title {
+  font-size: 2rem;
+  font-weight: 700;
+  padding: 1rem 0;
+}
+
+.todo-container {
+  border: 4px solid teal;
+  border-radius: 12px;
+  padding: 2rem 2rem;
+}
+
+
+.button-set {
+  display: flex;
+  gap: 10px;
+  margin-top: 24px;
+}
+
+.todo-delete-button {
+  background-color: #fff;
+  border: 2px solid red;
+}
+
+.todo-complete-button {
+  background-color: #fff;
+  border: 2px solid green;
+}
+
+.todo-edit-button{
+  background-color: #fff;
+  border: 2px solid rgb(94, 182, 94);
+}
+
+.edit-Container {
+  background: #dac7c7;
+  border-radius: 12px;
+  padding: 2rem 2rem;
+}
+
+.editHeader {
+  padding: 2rem 0;
+}
+
+.formContainer {
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  gap: 2rem;
+}
